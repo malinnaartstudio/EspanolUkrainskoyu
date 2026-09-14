@@ -43,9 +43,9 @@ img { display: block; width: 100%; }
 .hero-photo { position: absolute; inset: 0; background: url('img/baner.jpg') center / cover no-repeat; transform: scale(1.01); }
 .hero-content { position: relative; padding-bottom: 28px; }
 .hero-mobile { display: none; position: relative; }
-.hero-hotspot { position: absolute; top: 84.2%; height: 8.5%; border-radius: 99px; }
-.hotspot-left { left: 10.5%; width: 38.3%; }
-.hotspot-right { left: 53.9%; width: 38.4%; }
+.hero-hotspot { position: absolute; left: 22.8%; width: 54.6%; border-radius: 99px; }
+.hotspot-left { top: 81.5%; height: 7.2%; }
+.hotspot-right { top: 89.2%; height: 6.8%; }
 .eyebrow { margin: 0 0 14px; color: var(--red); font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
 .eyebrow.light { color: #ffd1dc; }
 h1, h2, h3, p { margin-top: 0; }
