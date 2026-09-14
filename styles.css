@@ -104,15 +104,15 @@ h1, h2, h3 { color: var(--ink-deep); font-weight: 400; line-height: .98; }
 .approach-photo img { box-shadow: var(--shadow); }
 .approach-copy h2 { max-width: 560px; font-family: var(--serif); font-size: clamp(36px, 3.6vw, 50px); letter-spacing: -.03em; line-height: 1.02; }
 .approach-copy > p:not(.eyebrow) { max-width: 560px; margin: 23px 0 0; color: var(--muted); font-size: 17px; }
-.lesson-structure { margin-top: 90px; padding-top: 60px; border-top: 1px solid var(--line); }
+.lesson-structure { margin-top: 100px; padding-top: 70px; border-top: 1px solid var(--line); }
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px 28px; padding: 0; margin: 0; list-style: none; }
 .steps li { display: grid; grid-template-columns: 1fr; gap: 10px; align-content: start; }
 .steps li > span { color: var(--red); font-weight: 700; font-size: 13px; padding-top: 2px; }
 .steps h3 { margin-bottom: 5px; font-family: var(--serif); font-size: 23px; }
 .steps p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
-.steps-title { max-width: none; margin: 0 0 28px; color: var(--ink); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.steps-title { display: block; max-width: none; margin: 0 0 36px; color: var(--ink); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .steps li { padding-top: 16px; border-top: 2px solid var(--line); }
-.steps-note { margin: 34px 0 0; color: var(--muted); font-size: 15px; }
+.steps-note { display: block; margin: 56px 0 0; padding-top: 28px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; line-height: 1.7; }
 .steps-note a { color: var(--ink); font-weight: 700; border-bottom: 1px solid currentColor; }
 .steps-note a:hover { color: var(--red); }
 .approach-facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 44px 0 0; padding: 0; list-style: none; }
@@ -189,7 +189,7 @@ h1, h2, h3 { color: var(--ink-deep); font-weight: 400; line-height: .98; }
   .approach-photo { margin-left: 22px; }
   .approach-facts { grid-template-columns: repeat(2, 1fr); }
   .steps { grid-template-columns: 1fr 1fr; }
-  .lesson-structure { margin-top: 64px; padding-top: 44px; }
+  .lesson-structure { margin-top: 72px; padding-top: 52px; }
   .cta-layout { gap: 44px; }
 }
 
