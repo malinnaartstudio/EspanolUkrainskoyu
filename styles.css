@@ -154,7 +154,7 @@ h1, h2, h3 { color: var(--ink-deep); font-weight: 400; line-height: .98; }
 .footer-content { display: grid; grid-template-columns: 1.1fr 1fr auto auto; align-items: center; gap: 25px; }
 .site-footer .brand { color: white; }
 .site-footer p { margin: 0; font-size: 12px; }
-.footer-links { display: flex; gap: 15px; font-size: 12px; font-weight: 700; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 12px; font-weight: 700; }
 .footer-links a:hover { color: white; }
 .copyright { text-align: right; opacity: .65; white-space: nowrap; }
 
